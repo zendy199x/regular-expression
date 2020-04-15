@@ -8,7 +8,7 @@ function removeText(str) {
     // return str.replace(/[\d]+/g, "") //Match tất cả number đứng liền nhau
     // return str.replace(/[\s]/g, "") //Match tất cả whitespace
     // return str.replace(/.+/g, "") //Match tất cả kí tự nằm trên cùng 1 hàng
-    return str.replace(/[^0-9]/g, "") //Match tất cả kí tự không phải number
+    return str.replace(/[^0-5]/g, "") //Match tất cả kí tự không phải number từ 0 đến 5
 }
 
 removeText(text)
